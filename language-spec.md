@@ -96,6 +96,11 @@ while active {
     break
 }
 ```
+```veny
+for i in 1..10 {
+    System.print(i)
+}
+```
 
 ---
 
