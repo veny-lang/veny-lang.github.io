@@ -163,3 +163,9 @@ Fiber.run {
 
 * `v0.5.1`
 * Entry point updated to `entry(args: [String])`
+
+---
+Veny is developed by Stoyan Petkov and contributors.
+
+© 2025 The Veny Language Project. Licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
