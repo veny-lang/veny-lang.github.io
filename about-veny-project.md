@@ -1,20 +1,19 @@
 # About the Veny Language Project
 
-**Veny** is an open source programming language designed and developed by **Stoyan Petkov**, based on over 30 years of professional experience in software engineering and domain modeling.
+**Veny** is an open source programming language built on long-standing experience working with object-oriented systems and real-world domain modeling. It was created by **Stoyan Petkov** to promote a practical, object-oriented approach to software design.
 
-The project is currently in an early, hands-on phase, with most of the focus on the compiler, core language design, and specification.
+The language emphasizes clarity, simplicity, and expressiveness in representing domain logic, especially in applications where understanding and maintaining the model is essential.
 
 ### 🚧 Work in Progress
 
-Veny is still evolving. Project organization, contribution guidelines, governance, and community infrastructure are all works in progress.
+Veny is currently in early development. The core compiler, language specification, and supporting tools are actively evolving. Project structure, contributor guidelines, and community governance are still being defined.
 
-The goal is to eventually grow Veny into a language supported by an open and welcoming community, with:
-- Clear contributor processes
-- Language roadmap and milestones
-- Community discussions and feedback loops
-- Tooling and platform support
+### 🔗 Get Involved
 
-If you're interested in contributing, sharing ideas, or just following the journey, feel free to star the [GitHub repo](https://github.com/veny-lang/language-spec), join the upcoming discussions, or reach out via [contact or social links].
+If you're interested in object-oriented programming, language design, or domain modeling—and want to help shape the future of Veny—you’re welcome to follow the project or get in touch.
+
+- 📦 GitHub: [github.com/veny-lang/language-spec](https://github.com/veny-lang/language-spec)
+- 🌐 Website: [venylang.org](https://venylang.org)
 
 ---
 
