@@ -56,3 +56,6 @@ So that others—including future you—understand what it means, not just what 
 Object-oriented programming is not obsolete—it’s misunderstood.
 
 Veny invites you to rediscover its power. To return to clarity, discipline, and elegance in software design. And to build systems that grow with your understanding, not against it.
+---
+© 2025 Stoyan Petkov. Licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
