@@ -1,0 +1,10 @@
+title: Veny Language
+description: Object-oriented language for real-world domain modeling
+theme: jekyll-theme-cayman # or whatever theme you're using
+
+# Hide the GitHub banner
+github:
+  is_project_page: false
+
+# Optional: remove repository link to prevent "Improve this page"
+# repository: veny-lang/venylang.github.io
