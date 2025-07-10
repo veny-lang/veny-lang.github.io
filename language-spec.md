@@ -2,7 +2,7 @@
 
 ## Overview
 
-Veny is a statically-typed, object-oriented programming language designed for clarity, brevity, and efficient compilation to Java. It draws inspiration from languages like Kotlin, Python, and Go, while staying grounded in strong static typing.
+Veny is a statically typed, object-oriented programming language designed for clarity, brevity, and efficient compilation to Java. It draws inspiration from languages like Kotlin, Python, and Go, while staying grounded in strong static typing.
 
 ---
 
@@ -20,7 +20,7 @@ package myapp.utils
 
 ```veny
 class Greeter {
-    val name: String = "Alice"
+    val name: Text = "Alice"
 
     greet(): void {
         System.print("Hello, " + name)
@@ -46,14 +46,14 @@ add(x: Int, y: Int): Int {
 
 ```veny
 class App {
-    entry(args: [String]): void {
+    entry(args: [Text]): void {
         System.print("Welcome to Veny")
     }
 }
 ```
 
 * The `entry` method is the program's starting point.
-* `args` is a list of string arguments passed from the CLI.
+* `args` is a list of text arguments passed from the CLI.
 
 ---
 
@@ -64,7 +64,7 @@ class App {
 * **Type Inference**: Allowed (not implemented at the moment) where context is enough:
 
 ```veny
-val name = "Veny"  // type inferred as String
+val name = "Veny"  // type inferred as Text
 ```
 
 ---
@@ -115,7 +115,7 @@ val numbers: [Int] = [1, 2, 3, 4]
 * Array literals support type inference:
 
 ```veny
-val names = ["Alice", "Bob"]  // Inferred as [String]
+val names = ["Alice", "Bob"]  // Inferred as [Text]
 ```
 
 ---
@@ -125,10 +125,10 @@ val names = ["Alice", "Bob"]  // Inferred as [String]
 Initial functions include:
 
 ```veny
-System.print(message: String): void
+Console.print(message: Text): void
 ```
 
-Future expansions will include `String`, `Math`, and `Array` utilities.
+Future expansions will include `Math`, `Array` and other utilities.
 
 ---
 
@@ -162,7 +162,7 @@ Fiber.run {
 ## Version
 
 * `v0.5.1`
-* Entry point updated to `entry(args: [String])`
+* Entry point updated to `entry(args: [Text])`
 
 ---
 Veny is developed by Stoyan Petkov and contributors.
