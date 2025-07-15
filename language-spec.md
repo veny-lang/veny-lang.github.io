@@ -23,7 +23,7 @@ class Greeter {
     val name: Text = "Alice"
 
     greet(): void {
-        System.print("Hello, " + name)
+        Console.print("Hello, " + name)
     }
 }
 ```
@@ -47,7 +47,7 @@ add(x: Int, y: Int): Int {
 ```veny
 class App {
     entry(args: [Text]): void {
-        System.print("Welcome to Veny")
+        Console.print("Welcome to Veny")
     }
 }
 ```
@@ -82,9 +82,9 @@ var active: Bool = true
 
 ```veny
 if active {
-    System.print("Running")
+    Console.print("Running")
 } else {
-    System.print("Stopped")
+    Console.print("Stopped")
 }
 ```
 
@@ -92,13 +92,13 @@ if active {
 
 ```veny
 while active {
-    System.print("Looping")
+    Console.print("Looping")
     break
 }
 ```
 ```veny
 for i in 1..10 {
-    System.print(i)
+    Console.print(i)
 }
 ```
 
